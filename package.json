@@ -15,19 +15,19 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/AlbericoD/overwolf-dev-mock-.git"
+        "url": "git+https://github.com/AlbericoD/overwolf-dev-mock.git"
     },
     "keywords": [],
     "author": "Albérico Dias Barreto Filho",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/AlbericoD/overwolf-dev-mock-/issues"
+        "url": "https://github.com/AlbericoD/overwolf-dev-mock/issues"
     },
-    "homepage": "https://github.com/AlbericoD/overwolf-dev-mock-#readme",
+    "homepage": "https://github.com/AlbericoD/overwolf-dev-mock#readme",
     "dependencies": {
         "@overwolf/types": "^2.22.0"
     },
     "publishConfig": {
-        "registry": "https://npm.pkg.github.com/"
+        "registry": "https://npm.pkg.github.com/AlbericoD"
     }
 }
