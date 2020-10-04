@@ -1,6 +1,4 @@
-import "@overwolf/types";
-
-import { MockCommonMethods } from "utils";
+import { MockCommonMethods } from "../../utils";
 
 let currentInterval: null | number = null;
 

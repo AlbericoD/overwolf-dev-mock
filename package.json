@@ -1,7 +1,7 @@
 {
-    "name": "overwolf-dev-mock-",
-    "version": "1.0.0",
-    "description": "",
+    "name": "overwolf-dev-mock",
+    "version": "0.1.0",
+    "description": "overwolf dev mock creates a overwolf window object outside the overwolf application, this code helps to create and test applications that use the window.overwolf object in a browser without causing development time errors.",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "files": [
@@ -24,7 +24,10 @@
         "url": "https://github.com/AlbericoD/overwolf-dev-mock-/issues"
     },
     "homepage": "https://github.com/AlbericoD/overwolf-dev-mock-#readme",
-    "devDependencies": {
+    "dependencies": {
         "@overwolf/types": "^2.22.0"
+    },
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/"
     }
 }
