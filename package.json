@@ -28,6 +28,6 @@
         "@overwolf/types": "^2.22.0"
     },
     "publishConfig": {
-        "registry": "https://npm.pkg.github.com/AlbericoD"
+        "registry": "https://npm.pkg.github.com/@AlbericoD"
     }
 }
