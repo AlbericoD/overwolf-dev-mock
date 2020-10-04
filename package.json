@@ -1,0 +1,30 @@
+{
+    "name": "overwolf-dev-mock-",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "prepare": "npm run build",
+        "deploy": "npm run prepare && npm publish",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/AlbericoD/overwolf-dev-mock-.git"
+    },
+    "keywords": [],
+    "author": "Albérico Dias Barreto Filho",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/AlbericoD/overwolf-dev-mock-/issues"
+    },
+    "homepage": "https://github.com/AlbericoD/overwolf-dev-mock-#readme",
+    "devDependencies": {
+        "@overwolf/types": "^2.22.0"
+    }
+}
