@@ -1,6 +1,6 @@
 {
     "name": "overwolf-dev-mock",
-    "version": "0.1.0",
+    "version": "0.0.1",
     "description": "overwolf dev mock creates a overwolf window object outside the overwolf application, this code helps to create and test applications that use the window.overwolf object in a browser without causing development time errors.",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
